@@ -1,0 +1,47 @@
+*{
+box-sizing: border-box
+}
+
+body {
+   
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+header {
+    /* background:url("./images/bg-masthead.jpg") cover center no-repeat ;  */
+    background-image: url("./images/bg-masthead.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    padding-top: 1px;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.btn{
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+}
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 6.5rem;
+    background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.jumbotron p {
+    color: rgba(255,255,255,.5)!important;
+}
+
+.btn-primary {
+    background-color: #64a19d;
+}
+
