@@ -45,3 +45,33 @@ h1 {
     background-color: #64a19d;
 }
 
+/* section1 */
+.sec1{
+    /* background: linear-gradient(to top, #333, #333 40%, #eee 155%, #333 110%); */
+    height: 100%;
+    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+    padding-top: 10rem; 
+    letter-spacing: .0625em;
+    line-height: 1.5;
+    width: 100%;
+    /* background-image: url(./images/ipad.png) */
+    /* ou pour le padding top 10 rem c'est la taille dont vous avez besoin en px diviser / le font-size par defaut (128px/16=10 rem ou  */
+}
+
+.sec1 h2 {
+    color: #fff!important;
+    margin-bottom: 1.5rem!important;
+    font-size: 2rem;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+}
+
+.sec1 p {
+    color:  #dc3545;
+}
+
+.sec1 img {
+    width: 100%;
+}
